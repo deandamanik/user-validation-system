@@ -27,10 +27,10 @@
                     
                     <div class="mt-10">
                         <h1 class="text-3xl font-extrabold text-slate-800 tracking-tight">
-                            Easy Verification for Everyone
+                            User Validation System
                         </h1>
                         <p class="mt-4 text-lg text-slate-600 leading-relaxed">
-                            Join our safe platform and keep your personal info secure with our best protection.
+                            Test and explore seamless email verification flows for account registration and password recovery.
                         </p>
                     </div>
                 </div>

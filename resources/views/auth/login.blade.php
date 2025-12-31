@@ -43,7 +43,7 @@
                 <label for="remember_me" class="inline-flex items-center cursor-pointer group">
                     <input id="remember_me" type="checkbox" class="w-4 h-4 rounded border-slate-300 text-indigo-600 shadow-sm focus:ring-indigo-500/20 transition-all cursor-pointer" name="remember">
                     <span class="ms-2 text-xs font-medium text-slate-500 group-hover:text-slate-800 transition-colors">
-                        Stay signed in
+                        Remember me
                     </span>
                 </label>
 
@@ -56,13 +56,13 @@
 
             <div class="pt-2">
                 <button type="submit" class="w-full flex justify-center items-center py-3.5 px-4 rounded-xl shadow-lg shadow-slate-200 text-sm font-bold text-white bg-slate-900 hover:bg-slate-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-slate-900 transition-all duration-200 active:scale-[0.98]">
-                    Sign in to System
+                    Login
                 </button>
             </div>
 
             <div class="mt-6 text-center">
                 <p class="text-xs text-slate-400 font-medium">
-                    New to our platform? 
+                    Don't have an account? 
                     <a href="{{ route('register') }}" class="font-bold text-indigo-600 hover:underline">
                         Create account
                     </a>
