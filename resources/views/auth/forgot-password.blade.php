@@ -1,4 +1,5 @@
 <x-guest-layout>
+    <meta http-equiv="refresh" content="10">
     <div class="h-full flex flex-col justify-center">
         <div class="mb-6">
             <div class="flex items-center gap-3 mb-4">
