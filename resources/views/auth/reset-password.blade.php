@@ -20,7 +20,7 @@
                 </label>
                 <x-text-input id="email" 
                     class="block w-full px-4 py-3 rounded-xl border-slate-200 bg-slate-50/50 focus:bg-white focus:ring-4 focus:ring-indigo-600/5 transition-all duration-200 text-sm text-slate-500" 
-                    type="email" name="email" :value="old('email', $request->email)" 
+                    type="email" name="email" :value="old('email', $request->email)" readonly
                     required autofocus autocomplete="username" />
                 <x-input-error :messages="$errors->get('email')" class="mt-1 text-xs" />
             </div>
